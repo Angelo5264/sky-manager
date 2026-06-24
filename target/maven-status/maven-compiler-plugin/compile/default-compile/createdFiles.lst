@@ -2,6 +2,7 @@ com/skymanager/filter/AdminFilter.class
 com/skymanager/controller/FlightServlet.class
 com/skymanager/dao/AirlineDAO.class
 com/skymanager/model/User.class
+com/skymanager/controller/ProfileServlet.class
 com/skymanager/config/DatabaseConfig.class
 com/skymanager/dao/BookingDAO.class
 com/skymanager/dao/AirportDAO.class
@@ -17,7 +18,6 @@ com/skymanager/model/Airport.class
 com/skymanager/dao/UserDAO.class
 com/skymanager/filter/AuthFilter.class
 com/skymanager/controller/HomeServlet.class
-TestDB.class
 com/skymanager/util/DateUtil.class
 com/skymanager/model/Airline.class
 com/skymanager/dao/FlightDAO.class

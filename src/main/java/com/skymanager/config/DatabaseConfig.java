@@ -12,10 +12,10 @@ import java.sql.SQLException;
 import io.github.cdimascio.dotenv.Dotenv;
 
 public class DatabaseConfig {
-    private static Dotenv dotenv =  Dotenv.load();
-    private static final String URL = dotenv.get("DATABASE");
-    private static final String USER = dotenv.get("USER");
-    private static final String PASSWORD = dotenv.get("PASSWORD");
+    private static final Dotenv dotenv =  Dotenv.load();
+    private static final String URL = dotenv.get("DATABASE_URL");
+    private static final String USER = dotenv.get("USER_DEVELOP");
+    private static final String PASSWORD = dotenv.get("PASSWORD_DEVELOP");
     
     private static DatabaseConfig instance;
     private Connection connection;

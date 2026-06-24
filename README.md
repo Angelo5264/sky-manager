@@ -29,5 +29,5 @@ Al abrir `**VSCODE**` junto con el proyecto
 
 ## Ejecutar script de la base de datos 
 
-## configurar archivo .env para que logre funcionar
+## configurar archivo .env para que logre funcionar y COLOCARLO EN LA CARPETA RESOURCES
 
